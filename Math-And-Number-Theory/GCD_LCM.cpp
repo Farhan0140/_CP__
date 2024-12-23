@@ -8,13 +8,22 @@ using namespace std;
 //_______________________________________________________________________________________________
 
 ll GCD(ll n, ll m) {
-    return __gcd(n, m);        // TC: O(log(min(n, m)))
+    return __gcd(n, m);               // TC: O(log(min(n, m)))
 }
+
+ll LCM(ll n, ll m) {
+    return ((n*m) / __gcd(n, m));     // TC: O(log(min(n, m)))
+}
+
+ll LCM_1(ll n, ll m) {
+    return ((n / __gcd(n, m)) * m);   // TC: O(log(min(n, m)))
+}                                     // For reduce overflow
 
 //_______________________________________________________________________________________________
 
 
 int main(){
+    cout << LCM_1(16, 24);
     return 0;
 }
 
