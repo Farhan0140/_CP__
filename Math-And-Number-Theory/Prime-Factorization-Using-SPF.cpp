@@ -8,6 +8,7 @@ const int S = 1e5;
 // TC O(sqrt(n))
 //_______________________________________________________________________________________________
 
+
 // Using Map    // log(n) for map
 void Prime_Fact(ll n) {
     map<ll, int> cnt;
@@ -35,7 +36,7 @@ void Prime_Fact(ll n) {
 
 int main(){
     ll n; cin >> n;
-    
+    Prime_Fact(n);
     return 0;
 }
 
