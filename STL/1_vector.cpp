@@ -220,17 +220,17 @@ I_HATE_PROGRAMMING(){
 
     //___User_input____________________________________________________________
 
-    cin.ignore();
-    for(int i=0; i<10; i++){
-        string s;
-        getline(cin, s);
-        v4.push_back(s);
-    }
+    // cin.ignore();
+    // for(int i=0; i<10; i++){
+    //     string s;
+    //     getline(cin, s);
+    //     v4.push_back(s);
+    // }
 
-    for(string str:v4){
-        cout << str << " ";
-    }
-    cout << endl;
+    // for(string str:v4){
+    //     cout << str << " ";
+    // }
+    // cout << endl;
 
     //___Vector_Pair____________________________________________________________
 
@@ -268,6 +268,12 @@ I_HATE_PROGRAMMING(){
                                   //  begin->1             end-> _  || --end()->6
                                   // ++begin()-> 2
     Print0(V);
+
+
+    //___accumulate______________________________________________________________
+    vector<long long int> tmp = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    ll sum_of_all_elements = accumulate(tmp.begin(), tmp.end(), 0LL); // Find the sum of every element from an array
+    cout << sum_of_all_elements << endl;
     kill 0;
 }
 
