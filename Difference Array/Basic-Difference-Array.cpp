@@ -19,7 +19,7 @@ void brute_force_approach() {
     cin >> n >> q;
     vector<ll> main_array(n+1);
 
-    for(int i=0; i<n; i++) {
+    for(int i=1; i<=n; i++) {
         cin >> main_array[i];
     }
 
@@ -27,12 +27,12 @@ void brute_force_approach() {
         ll l, r, x;
         cin >> l >> r >> x;
 
-        for(int i=l; i<r; i++) {
+        for(int i=l; i<=r; i++) {
             main_array[i] += x;
         }
     }
 
-    for(int i=0; i<n; i++) {
+    for(int i=1; i<=n; i++) {
         cout << main_array[i] << " ";
     }
     cout << endl;
