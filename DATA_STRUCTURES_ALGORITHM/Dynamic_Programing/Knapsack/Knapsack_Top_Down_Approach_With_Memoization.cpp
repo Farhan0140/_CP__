@@ -4,7 +4,7 @@ using namespace std;
 // Time Complexity O(n * W)
 //_______________________________________________________________________________________________
 
-#define let long long int
+#define ll long long int
 #define all(x) x.begin(),x.end()
 #define fast_read() (ios_base :: sync_with_stdio(false), cin.tie(NULL));
 
@@ -42,18 +42,18 @@ def fn(n, W):
 */
 //_______________________________________________________________________________________________
 
-const let N = 1e2+5;
-let DP[N][N];
+const ll N = 1e2+5;
+ll DP[N][N];
 
-let Knapsack(let n, let W, let weight[], let value[]);
+ll Knapsack(ll n, ll W, ll weight[], ll value[]);
 
 //_______________________________________________________________________________________________
  
  
 int main(){
     fast_read();
-    let n; cin >> n;
-    let weight[n+5], value[n+5];
+    ll n; cin >> n;
+    ll weight[n+5], value[n+5];
 
     for(int i=0; i<n; i++) {
         cin >> weight[i];
@@ -62,7 +62,7 @@ int main(){
         cin >> value[i];
     }
     memset(DP, -1, sizeof(DP));
-    let W; cin >> W; // Knapsack Weight
+    ll W; cin >> W; // Knapsack Weight
 
     cout << Knapsack(n - 1, W, weight, value) << endl;
     return 0;
@@ -71,7 +71,7 @@ int main(){
  
 //_______________________________________________________________________________________________
 
-let Knapsack(let n, let W, let weight[], let value[]) {
+ll Knapsack(ll n, ll W, ll weight[], ll value[]) {
     if(n < 0 || W == 0) {
         return 0;
     }
@@ -81,12 +81,12 @@ let Knapsack(let n, let W, let weight[], let value[]) {
     }
 
     if(weight[n] <= W) {
-        let option_1 = Knapsack(n-1, W-weight[n], weight, value) + value[n];   // Element ta Nie Dekhbo
-        let option_2 = Knapsack(n-1, W, weight, value);                        // Element ta Na Nie Dekhbo
+        ll option_1 = Knapsack(n-1, W-weight[n], weight, value) + value[n];   // Element ta Nie Dekhbo
+        ll option_2 = Knapsack(n-1, W, weight, value);                        // Element ta Na Nie Dekhbo
 
         return DP[n][W] = max(option_1, option_2);
     } else {
-        let option_2 = Knapsack(n-1, W, weight, value);
+        ll option_2 = Knapsack(n-1, W, weight, value);
         return DP[n][W] = option_2;
     }
 }
