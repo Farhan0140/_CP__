@@ -41,6 +41,7 @@ void Update(ll Node, ll Begin, ll End, ll Index, ll Value) {
     if(Begin == End) {
 
         Tree[Node] = Value;
+        return;
 
     }
 
