@@ -32,6 +32,12 @@ void Build (ll Node, ll Begin, ll End) {
 
 void Update(ll Node, ll Begin, ll End, ll Index, ll Value) {
 
+    if(Begin == End) {
+
+        Tree[Node] = Value;
+        
+    }
+
     ll Mid = (Begin + End) / 2;
     ll Left_Child = 2 * Node;
     ll Right_Child = (2 * Node) + 1;
@@ -58,7 +64,7 @@ int main(){
     Build(1, 1, n);
 
     return 0;
-    
+
 }
 
 
