@@ -32,10 +32,16 @@ void Build (ll Node, ll Begin, ll End) {
 
 void Update(ll Node, ll Begin, ll End, ll Index, ll Value) {
 
+    if(Index < Begin || Index > End) {
+
+        return;
+        
+    }
+
     if(Begin == End) {
 
         Tree[Node] = Value;
-        
+
     }
 
     ll Mid = (Begin + End) / 2;
