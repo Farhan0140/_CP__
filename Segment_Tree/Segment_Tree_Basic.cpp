@@ -25,6 +25,8 @@ void Build (ll Node, ll Begin, ll End) {
     Build(Left_Child, Begin, Mid);
     Build(Right_Child, Mid + 1, End);
 
+    Tree[Node] = Tree[Left_Child] + Tree[Right_Child];
+
 }
 
 //_______________________________________________________________________________________________
