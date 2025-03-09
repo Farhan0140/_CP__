@@ -7,20 +7,20 @@ const int SZ = 1e5 + 9;
 
 //_______________________________________________________________________________________________
 
-ll arr[SZ], Node[4 * SZ];
+ll arr[SZ], Tree[4 * SZ];
 
-void Build (ll node, ll Begin, ll End) {
+void Build (ll Node, ll Begin, ll End) {
 
     if(Begin == End) {
-        
-        Node[node] = arr[Begin];   // OR arr[End];
+
+        Tree[Node] = arr[Begin];   // OR arr[End];
         return;
 
     }
 
     ll Mid = (Begin + End) / 2;
-    ll Left_Child = 2 * node;
-    ll Right_Child = (2 * node) + 1;
+    ll Left_Child = 2 * Node;
+    ll Right_Child = (2 * Node) + 1;
 
     Build(Left_Child, Begin, Mid);
     Build(Right_Child, Mid + 1, End);
