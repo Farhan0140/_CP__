@@ -12,7 +12,10 @@ ll arr[SZ], Node[4 * SZ];
 void Build (ll node, ll Begin, ll End) {
 
     if(Begin == End) {
+        
         Node[node] = arr[Begin];   // OR arr[End];
+        return;
+
     }
 
     ll Mid = (Begin + End) / 2;
