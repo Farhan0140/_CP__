@@ -35,7 +35,7 @@ void Update(ll Node, ll Begin, ll End, ll Index, ll Value) {
     if(Index < Begin || Index > End) {
 
         return;
-        
+
     }
 
     if(Begin == End) {
@@ -48,10 +48,33 @@ void Update(ll Node, ll Begin, ll End, ll Index, ll Value) {
     ll Left_Child = 2 * Node;
     ll Right_Child = (2 * Node) + 1;
 
-    Build(Left_Child, Begin, Mid);
-    Build(Right_Child, Mid + 1, End);
+    Update(Left_Child, Begin, Mid, Index, Value);
+    Update(Right_Child, Mid + 1, End, Index, Value);
 
     Tree[Node] = Tree[Left_Child] + Tree[Right_Child];
+
+}
+
+
+ll Query(ll Node, ll Begin, ll End, ll i, ll j) {
+
+    if(End < i || Begin > j) {
+
+        return 0;
+
+    }
+
+    if(Begin >= i && End <= j) {
+
+        return Tree[Node];
+
+    }
+
+    ll Mid = (Begin + End) / 2;
+    ll Left_Child = 2 * Node;
+    ll Right_Child = (2 * Node) + 1;
+
+    return Query(Left_Child, Begin, Mid, i, j) + Query(Right_Child, Mid + 1, End, i, j);
 
 }
 
