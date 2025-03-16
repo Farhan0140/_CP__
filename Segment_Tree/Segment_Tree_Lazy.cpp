@@ -2,10 +2,8 @@
 using namespace std;
 
 #define ll long long int
-const int SZ = 1e5 + 9; 
 
-
-ll arr[SZ];
+vector<ll> arr;
 
 class Segment_Tree {
     private:
@@ -83,7 +81,7 @@ class Segment_Tree {
       
       void Build(ll n) {
 
-          Tree.resize(4 * SZ);
+          Tree.resize(4 * (n + 5));
           Build_Tree(1, 1, n);
 
       }
@@ -108,6 +106,9 @@ class Segment_Tree {
 int main(){
 
     ll n, q; cin >> n >> q;
+
+    arr.resize(n + 10);
+    
     for(int i=1; i<=n; i++) {
 
         cin >> arr[i];
