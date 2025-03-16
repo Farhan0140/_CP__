@@ -8,6 +8,32 @@ vector<ll> arr;
 class Segment_Tree {
     private:
       vector<ll> Tree;
+      vector<ll> Lazy;
+
+      void Propagate(ll Node, ll Begin, ll End) {
+
+          if(Lazy[ Node ] == 0) {
+
+              return;
+
+          }
+
+          ll childs = End - Begin + 1;
+          Tree[ Node ] = childs * Lazy[ Node ];
+
+          if(Begin != End) {
+
+              ll Left_Child = Node * 2;
+              ll Right_Child = (Node * 2) + 1;
+
+              Lazy[ Left_Child ] += Lazy[ Node ];
+              Lazy[ Right_Child ] += Lazy[ Node ];
+
+          }
+
+          Lazy[ Node ] = 0;
+
+      }
 
       void Build_Tree(ll Node, ll Begin, ll End) {
           
@@ -30,16 +56,19 @@ class Segment_Tree {
       }
 
       void Update_Tree(ll Node, ll Begin, ll End, ll Index, ll Value) {
+
+          Propagate(Node, Begin, End);
           
           if(Index < Begin || Index > End) {
-
+              
               return;
-
-          }
-
-          if(Begin == End) {
-
-              Tree[Node] = Value;
+              
+            }
+            
+            if(Begin == End) {
+                
+              Lazy[Node] = Value;
+              Propagate(Node, Begin, End);
               return;
 
           }
@@ -56,6 +85,8 @@ class Segment_Tree {
       }
 
       ll Query_Tree(ll Node, ll Begin, ll End, ll i, ll j) {
+
+          Propagate(Node, Begin, End);
 
           if(j < Begin || i > End) {
               
@@ -82,6 +113,8 @@ class Segment_Tree {
       void Build(ll n) {
 
           Tree.resize(4 * (n + 5));
+          Lazy.resize(4 * (n + 5));
+
           Build_Tree(1, 1, n);
 
       }
