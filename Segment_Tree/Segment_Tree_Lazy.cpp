@@ -19,7 +19,7 @@ class Segment_Tree {
           }
 
           ll childs = End - Begin + 1;
-          Tree[ Node ] = childs * Lazy[ Node ];
+          Tree[ Node ] += childs * Lazy[ Node ];
 
           if(Begin != End) {
 
@@ -39,7 +39,7 @@ class Segment_Tree {
           
           if(Begin == End) {
                 
-              Tree[Node] = arr[Begin];
+              Tree[ Node ] = 0;
               return;
 
           }
@@ -51,23 +51,23 @@ class Segment_Tree {
           Build_Tree(Left_Child, Begin, Mid);
           Build_Tree(Right_Child, Mid + 1, End);
 
-          Tree[Node] = Tree[Left_Child] + Tree[Right_Child];
+          Tree[ Node ] = Tree[ Left_Child ] + Tree[ Right_Child ];
 
       }
 
-      void Update_Tree(ll Node, ll Begin, ll End, ll Index, ll Value) {
+      void Update_Tree(ll Node, ll Begin, ll End, ll i, ll j, ll Value) {
 
           Propagate(Node, Begin, End);
           
-          if(Index < Begin || Index > End) {
+          if(j < Begin || i > End) {
               
               return;
               
-            }
+          }
             
-            if(Begin == End) {
+          if(Begin >= i && End <= j) {
                 
-              Lazy[Node] = Value;
+              Lazy[ Node ] = Value;
               Propagate(Node, Begin, End);
               return;
 
@@ -77,10 +77,10 @@ class Segment_Tree {
           ll Left_Child = Node << 1;
           ll Right_Child = Left_Child | 1; // OR: Left_Child + 1;
 
-          Update_Tree(Left_Child, Begin, Mid, Index, Value);
-          Update_Tree(Right_Child, Mid + 1, End, Index, Value);
+          Update_Tree(Left_Child, Begin, Mid, i, j, Value);
+          Update_Tree(Right_Child, Mid + 1, End, i, j, Value);
 
-          Tree[Node] = Tree[Left_Child] + Tree[Right_Child];
+          Tree[ Node ] = Tree[ Left_Child ] + Tree[ Right_Child ];
 
       }
 
@@ -96,7 +96,7 @@ class Segment_Tree {
 
           if(i <= Begin && j >= End) {
               
-              return Tree[Node];
+              return Tree[ Node ];
 
           }
 
@@ -119,9 +119,9 @@ class Segment_Tree {
 
       }
 
-      void Update(ll n, ll index, ll value) {
+      void Update(ll n, ll i, ll j, ll value) {
 
-          Update_Tree(1, 1, n, index, value);
+          Update_Tree(1, 1, n, i, j, value);
 
       }
 
@@ -140,14 +140,7 @@ int main(){
 
     ll n, q; cin >> n >> q;
 
-    arr.resize(n + 10);
-    
-    for(int i=1; i<=n; i++) {
-
-        cin >> arr[i];
-
-    }
-
+    arr.resize(n + 10, 0);
 
     Segment_Tree seg_tree;
     seg_tree.Build(n);
@@ -157,15 +150,15 @@ int main(){
         ll chk; cin >> chk;
         if(chk == 1) {
             
-            ll idx, val; cin >> idx >> val; 
-            idx++;
-            seg_tree.Update(n, idx, val);
+            ll l, r, val; cin >> l >> r >> val; 
+            l++;
+            seg_tree.Update(n, l, r, val);
             
         } else {
             
-            ll l, r; cin >> l >> r; 
+            ll l; cin >> l; 
             l++;
-            cout << seg_tree.Query(n, l, r) << endl;
+            cout << seg_tree.Query(n, l, l) << endl;
 
         }
     }
