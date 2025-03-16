@@ -140,8 +140,6 @@ int main(){
 
     ll n, q; cin >> n >> q;
 
-    arr.resize(n + 10, 0);
-
     Segment_Tree seg_tree;
     seg_tree.Build(n);
 
@@ -156,9 +154,9 @@ int main(){
             
         } else {
             
-            ll l; cin >> l; 
+            ll l, r; cin >> l >> r; 
             l++;
-            cout << seg_tree.Query(n, l, l) << endl;
+            cout << seg_tree.Query(n, l, r) << endl;
 
         }
     }
