@@ -15,4 +15,7 @@
    - Singly Linked List
       * [Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Singly_Linked_List.cpp)
       * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Singly_Linked_List_New.cpp)
+   - Doubly Linked List
+      * [Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_linked_list.cpp)
+      * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_Linked_List_New.cpp)
       * []()
