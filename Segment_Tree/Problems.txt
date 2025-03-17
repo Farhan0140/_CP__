@@ -2,3 +2,9 @@ https://vjudge.net/contest/701913#problem/A
 
 ---> Solutions
 week 20
+
+
+--> 1 --> https://codeforces.com/edu/course/2/lesson/5/1/practice/contest/279634/problem/A
+--> 2 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/D
+--> 3 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/A
+--> 4 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/B
