@@ -5,7 +5,7 @@ using namespace std;
 
 vector<ll> arr;
 
-class Segment_Tree {
+class Segment_Tree_Lazy {
     private:
       vector<ll> Tree;
       vector<ll> Lazy;
@@ -140,7 +140,7 @@ int main(){
 
     ll n, q; cin >> n >> q;
 
-    Segment_Tree seg_tree;
+    Segment_Tree_Lazy seg_tree;
     seg_tree.Build(n);
 
     while(q--) {
