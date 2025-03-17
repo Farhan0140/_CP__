@@ -39,7 +39,7 @@ class Segment_Tree_Lazy {
           
           if(Begin == End) {
                 
-              Tree[ Node ] = 0;
+              Tree[ Node ] = arr[ Begin ];
               return;
 
           }
@@ -139,6 +139,7 @@ class Segment_Tree_Lazy {
 int main(){
 
     ll n, q; cin >> n >> q;
+    arr.resize(n+5, 0);
 
     Segment_Tree_Lazy seg_tree;
     seg_tree.Build(n);
