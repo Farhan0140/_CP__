@@ -25,11 +25,28 @@
 
 3. #### Binary Tree
     * [Binary Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Tree_Phitron.cpp)
-    * [Binary Search Tree](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Search_Tree.cpp)
-    * [Heap](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap.cpp)
-    * [Heap Sort](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap_Sort.cpp)
+    * [Binary Search Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Search_Tree.cpp)
+    * [Heap Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap.cpp)
+    * [Heap Sort Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap_Sort.cpp)
     * [Problems](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Problems.txt)
-    * []()
+
+4. #### Graph
+   - Basics of Graph and Representations
+      * [Adjacency Matrix](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/adjacency_matrix.cpp)
+      * [Adjacency List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/adjacency_list.cpp)
+      * [Edge List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/edge_list.cpp)
+      * []()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
