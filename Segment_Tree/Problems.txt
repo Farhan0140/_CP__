@@ -1,7 +1,5 @@
 -----------------> Segment Tree <--------------------
 
-https://vjudge.net/contest/699710#problem/A
-
 ---> Solutions
 week 19
 
@@ -9,8 +7,6 @@ week 19
 
 
 -----------------> Segment Tree Lazy <--------------------
-
-https://vjudge.net/contest/701913#problem/A
 
 ---> Solutions
 week 20
