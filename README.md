@@ -40,7 +40,7 @@
       * [BFS Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/BFS.cpp)
       * [Level Tracking](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/BFS_With_Level_Tracking.cpp)
       * [Shortest Path Printing](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/Path_Printing__or__Shortest_Path.cpp.cpp)
-      
+      * [Detect Cycle](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/Detect_Cycle.cpp)
       * []()
       * []()
       * []()
