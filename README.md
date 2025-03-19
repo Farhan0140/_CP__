@@ -21,14 +21,12 @@
       * [Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_linked_list.cpp)
       * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_Linked_List_New.cpp)
       * [Stack Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Stack_Implementation_using_Linked_List.cpp)
-   - [Problems](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Problems.txt)
 
 3. #### Binary Tree
     * [Binary Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Tree_Phitron.cpp)
     * [Binary Search Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Search_Tree.cpp)
     * [Heap Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap.cpp)
     * [Heap Sort Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap_Sort.cpp)
-    * [Problems](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Problems.txt)
 
 4. #### Graph
    - Basics of Graph and Representations
@@ -37,7 +35,16 @@
       * [Edge List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/edge_list.cpp)
    - Conversions
       * [Adjacency Matrix To List & Edge_List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/Adjacency_Matrix_To__List_%26_Edge_List.cpp)
-      * [Adjacency_List to Matrix And Edge_List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/Adjacency_List_to___Matrix__And__Edge_List.cpp)
+      * [Adjacency_List to Matrix & Edge_List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/Adjacency_List_to___Matrix__And__Edge_List.cpp)
+   - BFS (Breadth First Search)
+      * [BFS Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/BFS.cpp)
+      * [Level Tracking](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/BFS_With_Level_Tracking.cpp)
+      * [Tracking level using pair](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/BFS_With_Level_Tracking_With_Pair.cpp)
+      * [Shortest Path Printing](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/Path_Printing__or__Shortest_Path.cpp.cpp)
+      * [Detect Cycle](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/Detect_Cycle.cpp)
+      * [BFS on 2D Grid Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/2D_Grid.cpp)
+      * [Parent Tracking on 2D Grid](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/2D_Grid_With_Parent_Tracking.cpp)
+      * [Print Shortest With Moves on 2D Grid](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/BFS/2D_Grid_With_Move.cpp)
       * []()
 
 
