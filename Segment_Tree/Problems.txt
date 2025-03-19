@@ -19,5 +19,6 @@ week 20
 --> 5 --> https://codeforces.com/edu/course/2/lesson/5/1/practice/contest/279634/problem/B
 --> 6 --> https://codeforces.com/edu/course/2/lesson/5/1/practice/contest/279634/problem/C
 --> 7 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/C
+--> 8 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/E
 -->  --> 
 -->  --> 
