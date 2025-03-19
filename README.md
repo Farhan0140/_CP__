@@ -17,6 +17,7 @@
       * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Singly_Linked_List_New.cpp)
       * [Queue Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Queue_Implementation_using_Linked_List.cpp)
       * [D Queue Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/D_Queue_Implementation_using_Linked_List.cpp)
+      <br>
    - Doubly Linked List
       * [Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_linked_list.cpp)
       * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_Linked_List_New.cpp)
