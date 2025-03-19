@@ -21,4 +21,4 @@ week 20
 --> 7 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/C
 --> 8 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/E
 --> 9 --> https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/F
--->  --> 
+--> 10 --> https://lightoj.com/problem/binary-simulation
