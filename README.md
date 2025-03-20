@@ -59,7 +59,7 @@
    - Dijkstra
       * [Dijkstra Naive](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Dijkstra/Dijkstra_Naive.cpp)
       * [Dijkstra Optimized](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Dijkstra/Dijkstra_Optimized.cpp)
-      * []()
+      * [Dijkstra Optimized Simple](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Dijkstra/Dijkstra_Optimized_Simple.cpp)
       * []()
 
 
