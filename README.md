@@ -56,7 +56,9 @@
       * [Detect Cycle in Directed_Graph](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/DFS/Detect_Cycle_in_Directed_graph.cpp)
       * [DFS on 2D Grid Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/DFS/2D_Grid.cpp)
      <br>
-   - DFS (Depth First Search)
+   - Dijkstra
+      * [Dijkstra Naive](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Dijkstra/Dijkstra_Naive.cpp)
+      * []()
       * []()
       * []()
 
