@@ -85,196 +85,189 @@ If you find this repository helpful, don't forget to **star** it!
 ## 📂 **Repository Structure**
 
 ```
-├───_CP__
-│   │   .gitattributes
-│   │   README.md
+├───Binary Search
+│       First Occurrence.cpp
+│       Last Occurrence.cpp
+│
+├───Bit-Manipulation
+│       Bitmasks.cpp
+│       Bitwise-Operations.cpp
+│       Built_in_functions.cpp
+│
+├───DATA_STRUCTURES_ALGORITHM
+│   ├───Abstract_Data_Structure(A.D.T)
+│   │       Stack_Using_Dynamic_Array.cpp
+│   │       Stack_Using_List.cpp
 │   │
-│   ├───.github
-│   │   └───workflows
-│   │           c-cpp.yml
-│   │
-│   ├───Binary Search
-│   │       First Occurrence.cpp
-│   │       Last Occurrence.cpp
-│   │
-│   ├───Bit-Manipulation
-│   │       Bitmasks.cpp
-│   │       Bitwise-Operations.cpp
-│   │       Built_in_functions.cpp
-│   │
-│   ├───DATA_STRUCTURES_ALGORITHM
-│   │   ├───Abstract_Data_Structure(A.D.T)
-│   │   │       Stack_Using_Dynamic_Array.cpp
-│   │   │       Stack_Using_List.cpp
+│   ├───Dynamic_Programing
+│   │   ├───Fibonacci Series
+│   │   │       Bottom_Up_Approach_On_Fibonacci.cpp
+│   │   │       Memoization_on_Fibonacci_Series.cpp
+│   │   │       n_th_Fibonacci_Number_Top_Down_Approach.cpp
 │   │   │
-│   │   ├───Dynamic_Programing
-│   │   │   ├───Fibonacci Series
-│   │   │   │       Bottom_Up_Approach_On_Fibonacci.cpp
-│   │   │   │       Memoization_on_Fibonacci_Series.cpp
-│   │   │   │       n_th_Fibonacci_Number_Top_Down_Approach.cpp
+│   │   ├───Knapsack
+│   │   │   │   Fractional_Knapsack.cpp
+│   │   │   │   Knapsack_Bottom_Up_Approach.cpp
+│   │   │   │   Knapsack_Recursive_Approach.cpp
+│   │   │   │   Knapsack_Top_Down_Approach_With_Memoization.cpp
 │   │   │   │
-│   │   │   ├───Knapsack
-│   │   │   │   │   Fractional_Knapsack.cpp
-│   │   │   │   │   Knapsack_Bottom_Up_Approach.cpp
-│   │   │   │   │   Knapsack_Recursive_Approach.cpp
-│   │   │   │   │   Knapsack_Top_Down_Approach_With_Memoization.cpp
-│   │   │   │   │
-│   │   │   │   ├───SubSet
-│   │   │   │   │       Count_of_Subset_Sum_Bottom_Up.cpp
-│   │   │   │   │       Count_of_Subset_Sum_Top_Down.cpp
-│   │   │   │   │       Count_Subset_Sum_With_Given_Difference.cpp
-│   │   │   │   │       Equal_Sum_Partition_Using_Subset_Sum.cpp
-│   │   │   │   │       Minimum_Subset_Sum_Difference.cpp
-│   │   │   │   │       Subset_Sum_Bottom_Up_Approach.cpp
-│   │   │   │   │       Subset_Sum_Top_Down.cpp
-│   │   │   │   │       Subset_Sum_Top_Down_With_Memoization.cpp
-│   │   │   │   │
-│   │   │   │   └───Unbounded Knapsack
-│   │   │   │           Coin_Change_Maximum_Number_of_Ways.cpp
-│   │   │   │           Coin_Change_Minimum_Number_of_Coin.cpp
-│   │   │   │           Rod_Cutting_Problem.cpp
-│   │   │   │           Unbounded_Knapsack_Bottom_Up.cpp
-│   │   │   │           Unbounded_Knapsack_Top_Down.cpp
-│   │   │   │           Unbounded_Knapsack_With_Memoization.cpp
+│   │   │   ├───SubSet
+│   │   │   │       Count_of_Subset_Sum_Bottom_Up.cpp
+│   │   │   │       Count_of_Subset_Sum_Top_Down.cpp
+│   │   │   │       Count_Subset_Sum_With_Given_Difference.cpp
+│   │   │   │       Equal_Sum_Partition_Using_Subset_Sum.cpp
+│   │   │   │       Minimum_Subset_Sum_Difference.cpp
+│   │   │   │       Subset_Sum_Bottom_Up_Approach.cpp
+│   │   │   │       Subset_Sum_Top_Down.cpp
+│   │   │   │       Subset_Sum_Top_Down_With_Memoization.cpp
 │   │   │   │
-│   │   │   └───Longest_Common_Subsequence
-│   │   │           LCS_Bottom_Up.cpp
-│   │   │           LCS_Top_Down_with_Memoization.cpp
-│   │   │           Longest_Common_Substring_Bottom_Up.cpp
-│   │   │           Longest_Common_Substring_Bottom_Up_and_Printing.cpp
-│   │   │           Printing_LCS.cpp
+│   │   │   └───Unbounded Knapsack
+│   │   │           Coin_Change_Maximum_Number_of_Ways.cpp
+│   │   │           Coin_Change_Minimum_Number_of_Coin.cpp
+│   │   │           Rod_Cutting_Problem.cpp
+│   │   │           Unbounded_Knapsack_Bottom_Up.cpp
+│   │   │           Unbounded_Knapsack_Top_Down.cpp
+│   │   │           Unbounded_Knapsack_With_Memoization.cpp
 │   │   │
-│   │   ├───Graph
-│   │   │   ├───Basics Graph
-│   │   │   │       adjacency_list.cpp
-│   │   │   │       Adjacency_List_to___Matrix__And__Edge_List.cpp
-│   │   │   │       adjacency_matrix.cpp
-│   │   │   │       Adjacency_Matrix_To__List_&_Edge_List.cpp
-│   │   │   │       Components.cpp
-│   │   │   │       edge_list.cpp
-│   │   │   │
-│   │   │   ├───Bellman Ford Algorithm
-│   │   │   │       Bellman_Ford_Algorithm.cpp
-│   │   │   │       Detect_Negative_Cycle.cpp
-│   │   │   │
-│   │   │   ├───BFS
-│   │   │   │       2D_Grid.cpp
-│   │   │   │       2D_Grid_With_Move.cpp
-│   │   │   │       2D_Grid_With_Parent_Tracking.cpp
-│   │   │   │       BFS.cpp
-│   │   │   │       BFS_With_Level_Tracking.cpp
-│   │   │   │       BFS_With_Level_Tracking_With_Pair.cpp
-│   │   │   │       Detect_Cycle.cpp
-│   │   │   │       Path_Printing__or__Shortest_Path.cpp.cpp
-│   │   │   │
-│   │   │   ├───DFS
-│   │   │   │       2D_Grid.cpp
-│   │   │   │       Detect_Cycle_in_Directed_graph.cpp
-│   │   │   │       Detect_Cycle_in_Undirected_graph.cpp
-│   │   │   │       DFS.cpp
-│   │   │   │
-│   │   │   ├───Dijkstra
-│   │   │   │       Dijkstra_Naive.cpp
-│   │   │   │       Dijkstra_Optimized.cpp
-│   │   │   │       Dijkstra_Optimized_Simple.cpp
-│   │   │   │
-│   │   │   ├───Disjoint Set Union
-│   │   │   │   │   Detect_Cycle_in_Undirected_Graph.cpp
-│   │   │   │   │   DSU.cpp
-│   │   │   │   │
-│   │   │   │   └───Minimum Spanning Tree (MST)
-│   │   │   │           Kruskal's_Algorithm.cpp
-│   │   │   │           Prim’s_Algorithm.cpp
-│   │   │   │
-│   │   │   └───Floyd Warshall
-│   │   │           Floyd_Warshall.cpp
+│   │   └───Longest_Common_Subsequence
+│   │           LCS_Bottom_Up.cpp
+│   │           LCS_Top_Down_with_Memoization.cpp
+│   │           Longest_Common_Substring_Bottom_Up.cpp
+│   │           Longest_Common_Substring_Bottom_Up_and_Printing.cpp
+│   │           Printing_LCS.cpp
+│   │
+│   ├───Graph
+│   │   ├───Basics Graph
+│   │   │       adjacency_list.cpp
+│   │   │       Adjacency_List_to___Matrix__And__Edge_List.cpp
+│   │   │       adjacency_matrix.cpp
+│   │   │       Adjacency_Matrix_To__List_&_Edge_List.cpp
+│   │   │       Components.cpp
+│   │   │       edge_list.cpp
 │   │   │
-│   │   ├───Linked_List
-│   │   │       Doubly_linked_list.cpp
-│   │   │       Doubly_Linked_List_New.cpp
-│   │   │       D_Queue_Implementation_using_Linked_List.cpp
-│   │   │       Queue_Implementation_using_Linked_List.cpp
-│   │   │       Singly_Linked_List.cpp
-│   │   │       Singly_Linked_List_New.cpp
-│   │   │       Stack_Implementation_using_Linked_List.cpp
+│   │   ├───Bellman Ford Algorithm
+│   │   │       Bellman_Ford_Algorithm.cpp
+│   │   │       Detect_Negative_Cycle.cpp
 │   │   │
-│   │   ├───Sorting Algorithms
-│   │   │       Counting_Sort.cpp
-│   │   │       Heap_Sort.cpp
-│   │   │       Merge_Sort.cpp
-│   │   │       Radix_Sort.cpp
+│   │   ├───BFS
+│   │   │       2D_Grid.cpp
+│   │   │       2D_Grid_With_Move.cpp
+│   │   │       2D_Grid_With_Parent_Tracking.cpp
+│   │   │       BFS.cpp
+│   │   │       BFS_With_Level_Tracking.cpp
+│   │   │       BFS_With_Level_Tracking_With_Pair.cpp
+│   │   │       Detect_Cycle.cpp
+│   │   │       Path_Printing__or__Shortest_Path.cpp.cpp
 │   │   │
-│   │   ├───String
-│   │   │       Print_All_Subsequences_of_a_String.cpp
+│   │   ├───DFS
+│   │   │       2D_Grid.cpp
+│   │   │       Detect_Cycle_in_Directed_graph.cpp
+│   │   │       Detect_Cycle_in_Undirected_graph.cpp
+│   │   │       DFS.cpp
 │   │   │
-│   │   └───TREE
-│   │           Binary_Search_Tree.cpp
-│   │           Binary_Tree.cpp
-│   │           Binary_Tree_Phitron.cpp
-│   │           Heap.cpp
-│   │           Heap_Sort.cpp
+│   │   ├───Dijkstra
+│   │   │       Dijkstra_Naive.cpp
+│   │   │       Dijkstra_Optimized.cpp
+│   │   │       Dijkstra_Optimized_Simple.cpp
+│   │   │
+│   │   ├───Disjoint Set Union
+│   │   │   │   Detect_Cycle_in_Undirected_Graph.cpp
+│   │   │   │   DSU.cpp
+│   │   │   │
+│   │   │   └───Minimum Spanning Tree (MST)
+│   │   │           Kruskal's_Algorithm.cpp
+│   │   │           Prim’s_Algorithm.cpp
+│   │   │
+│   │   └───Floyd Warshall
+│   │           Floyd_Warshall.cpp
 │   │
-│   ├───Difference Array
-│   │       Basic-Difference-Array.cpp
-│   │       Optimized_Approach.cpp
+│   ├───Linked_List
+│   │       Doubly_linked_list.cpp
+│   │       Doubly_Linked_List_New.cpp
+│   │       D_Queue_Implementation_using_Linked_List.cpp
+│   │       Queue_Implementation_using_Linked_List.cpp
+│   │       Singly_Linked_List.cpp
+│   │       Singly_Linked_List_New.cpp
+│   │       Stack_Implementation_using_Linked_List.cpp
 │   │
-│   ├───Lambda expression in C++
-│   ├───Math-And-Number-Theory
-│   │       Binary_Exponentiation.cpp
-│   │       Counting_Divisors_Using_Sieve.cpp
-│   │       Divisors.cpp
-│   │       GCD_LCM.cpp
-│   │       Modular_Arithmetic.cpp
-│   │       Primality_Test.cpp
-│   │       Prime-Factorization-Using- Sieve.cpp
-│   │       Prime-Factorization-Using-SPF.cpp
-│   │       SIEVE_OF_ERATOSTHENES.cpp
+│   ├───Sorting Algorithms
+│   │       Counting_Sort.cpp
+│   │       Heap_Sort.cpp
+│   │       Merge_Sort.cpp
+│   │       Radix_Sort.cpp
 │   │
-│   ├───Number_Theory
-│   │       10_SEGMENTED_SIEVE.cpp
-│   │       11_MODULAR_ARITHMETIC.cpp
-│   │       12_MODULAR_INVERSE.cpp
-│   │       13_BINOMIAL_COEFFICIENT_USING_MODULO.cpp
-│   │       14_EULERS_TOTIENT_FUNCTION.cpp
-│   │       15_BIG_SUMMATION.cpp
-│   │       16_BIG_SUBTRACTION.cpp
-│   │       17_BIG_MOD.cpp
-│   │       1_PRIMALITY_TEST.cpp
-│   │       2_SIEVE_OF_ERATOSTHENES.cpp
-│   │       3_K-th Prime_Number.cpp
-│   │       4_PRIME_FACTORIZATION.cpp
-│   │       5_BINARY_EXPONENTIATION.cpp
-│   │       6_MATRIX_EXPONENTIATION.cpp
-│   │       7_FIBONACCI_FINDING_using_MATRIX_EXPONENTIATION.cpp
-│   │       8_COUNT_NUMBER_OF_DIVISOR.cpp
-│   │       9_EUCLID_ALGORITHM_GCD.cpp
-│   │       All_in_ONE.cpp
+│   ├───String
+│   │       Print_All_Subsequences_of_a_String.cpp
 │   │
-│   ├───Recursion And Backtracking
-│   │   └───LeetCode
-│   │           131.palindrome-partitioning.cpp
-│   │           39.combination-sum.cpp
-│   │           40.combination-sum-ii.cpp
-│   │           46.permutations.cpp
-│   │           51.n-queens.cpp
-│   │           90.subsets-ii.cpp
-│   │
-│   ├───Segment_Tree
-│   │       Problems.txt
-│   │       Segment_Tree_Basic.cpp
-│   │       Segment_Tree_Lazy.cpp
-│   │       Segment_Tree_Using_Class.cpp
-│   │
-│   └───STL
-│           11_map.cpp
-│           12_pair_&&_Tuple.cpp
-│           1_vector.cpp
-│           2_list.cpp
-│           3_deque.cpp
-│           4_queue.cpp
-│           5_P_queue.cpp
-│           6_Stack.cpp
-│           7_set.cpp
-│           8_multi_set.cpp
-│           PBDS (Policy Based Data Structure).cpp
+│   └───TREE
+│           Binary_Search_Tree.cpp
+│           Binary_Tree.cpp
+│           Binary_Tree_Phitron.cpp
+│           Heap.cpp
+│           Heap_Sort.cpp
+│
+├───Difference Array
+│       Basic-Difference-Array.cpp
+│       Optimized_Approach.cpp
+│
+├───Lambda expression in C++
+├───Math-And-Number-Theory
+│       Binary_Exponentiation.cpp
+│       Counting_Divisors_Using_Sieve.cpp
+│       Divisors.cpp
+│       GCD_LCM.cpp
+│       Modular_Arithmetic.cpp
+│       Primality_Test.cpp
+│       Prime-Factorization-Using- Sieve.cpp
+│       Prime-Factorization-Using-SPF.cpp
+│       SIEVE_OF_ERATOSTHENES.cpp
+│
+├───Number_Theory
+│       10_SEGMENTED_SIEVE.cpp
+│       11_MODULAR_ARITHMETIC.cpp
+│       12_MODULAR_INVERSE.cpp
+│       13_BINOMIAL_COEFFICIENT_USING_MODULO.cpp
+│       14_EULERS_TOTIENT_FUNCTION.cpp
+│       15_BIG_SUMMATION.cpp
+│       16_BIG_SUBTRACTION.cpp
+│       17_BIG_MOD.cpp
+│       1_PRIMALITY_TEST.cpp
+│       2_SIEVE_OF_ERATOSTHENES.cpp
+│       3_K-th Prime_Number.cpp
+│       4_PRIME_FACTORIZATION.cpp
+│       5_BINARY_EXPONENTIATION.cpp
+│       6_MATRIX_EXPONENTIATION.cpp
+│       7_FIBONACCI_FINDING_using_MATRIX_EXPONENTIATION.cpp
+│       8_COUNT_NUMBER_OF_DIVISOR.cpp
+│       9_EUCLID_ALGORITHM_GCD.cpp
+│       All_in_ONE.cpp
+│
+├───Recursion And Backtracking
+│   └───LeetCode
+│           131.palindrome-partitioning.cpp
+│           39.combination-sum.cpp
+│           40.combination-sum-ii.cpp
+│           46.permutations.cpp
+│           51.n-queens.cpp
+│           90.subsets-ii.cpp
+│
+├───Segment_Tree
+│       Problems.txt
+│       Segment_Tree_Basic.cpp
+│       Segment_Tree_Lazy.cpp
+│       Segment_Tree_Using_Class.cpp
+│
+└───STL
+        11_map.cpp
+        12_pair_&&_Tuple.cpp
+        1_vector.cpp
+        2_list.cpp
+        3_deque.cpp
+        4_queue.cpp
+        5_P_queue.cpp
+        6_Stack.cpp
+        7_set.cpp
+        8_multi_set.cpp
+        PBDS (Policy Based Data Structure).cpp
+
 ```
