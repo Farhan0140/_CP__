@@ -71,8 +71,10 @@
    - Disjoint Set Union
       * [Disjoint Set Union Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Disjoint%20Set%20Union/DSU.cpp)
       * [Detect_Cycle_in_Undirected_Graph](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Disjoint%20Set%20Union/Detect_Cycle_in_Undirected_Graph.cpp)
-      * []()
-      * []()
+     <br>
+   - Minimum Spanning Tree (MST)
+      * [Prim’s Algorithm](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Disjoint%20Set%20Union/Minimum%20Spanning%20Tree%20(MST)/Prim%E2%80%99s_Algorithm.cpp)
+      * [Kruskal's Algorithm](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Disjoint%20Set%20Union/Minimum%20Spanning%20Tree%20(MST)/Kruskal's_Algorithm.cpp)
       * []()
       * []()
 
