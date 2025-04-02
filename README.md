@@ -30,7 +30,7 @@
     * [Heap Sort Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap_Sort.cpp)
 
 4. ### Graph
-   - Basics of Graph and Representations
+   - Basics Graphs and Representations
       * [Adjacency Matrix](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/adjacency_matrix.cpp)
       * [Adjacency List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/adjacency_list.cpp)
       * [Edge List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/edge_list.cpp)
@@ -61,7 +61,7 @@
       * [Dijkstra Optimized Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Dijkstra/Dijkstra_Optimized.cpp)
       * [Dijkstra Optimized Simple Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Dijkstra/Dijkstra_Optimized_Simple.cpp)
      <br>
-   - Bellman Ford Algorithm
+   - Bellman-Ford Algorithm
       * [Bellman Ford Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Bellman%20Ford%20Algorithm/Bellman_Ford_Algorithm.cpp)
       * [Detect Negative Cycle](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Bellman%20Ford%20Algorithm/Detect_Negative_Cycle.cpp)
      <br>
