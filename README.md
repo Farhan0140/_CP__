@@ -5,13 +5,13 @@
 
 ## Lists
 
-1. #### Sorting Algorithms
+1. ### Sorting Algorithms
     * [Counting Sort](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Sorting%20Algorithms/Counting_Sort.cpp)
     * [Radix Sort](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Sorting%20Algorithms/Radix_Sort.cpp)
     * [Heap Sort](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Sorting%20Algorithms/Heap_Sort.cpp)
     * [Merge Sort](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Sorting%20Algorithms/Merge_Sort.cpp)
 
-2. #### Linked List
+2. ### Linked List
    - Singly Linked List
       * [Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Singly_Linked_List.cpp)
       * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Singly_Linked_List_New.cpp)
@@ -23,13 +23,13 @@
       * [Project](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Doubly_Linked_List_New.cpp)
       * [Stack Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Linked_List/Stack_Implementation_using_Linked_List.cpp)
 
-3. #### Binary Tree
+3. ### Binary Tree
     * [Binary Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Tree_Phitron.cpp)
     * [Binary Search Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Search_Tree.cpp)
     * [Heap Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap.cpp)
     * [Heap Sort Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap_Sort.cpp)
 
-4. #### Graph
+4. ### Graph
    - Basics of Graph and Representations
       * [Adjacency Matrix](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/adjacency_matrix.cpp)
       * [Adjacency List](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Basics%20Graph/adjacency_list.cpp)
@@ -75,7 +75,7 @@
    - Minimum Spanning Tree (MST)
       * [Prim’s Algorithm](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Disjoint%20Set%20Union/Minimum%20Spanning%20Tree%20(MST)/Prim%E2%80%99s_Algorithm.cpp)
       * [Kruskal's Algorithm](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Graph/Disjoint%20Set%20Union/Minimum%20Spanning%20Tree%20(MST)/Kruskal's_Algorithm.cpp)
-5. #### Dynamic_Programing
+5. ### Dynamic_Programing
    - Fibonacci Series
       * [n th Fibonacci Number Top Down Approach](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Fibonacci%20Series/n_th_Fibonacci_Number_Top_Down_Approach.cpp)
       * [Memoization on Fibonacci Series](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Fibonacci%20Series/Memoization_on_Fibonacci_Series.cpp)
