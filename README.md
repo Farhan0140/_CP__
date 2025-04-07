@@ -80,7 +80,10 @@
       * [n th Fibonacci Number Top Down Approach](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Fibonacci%20Series/n_th_Fibonacci_Number_Top_Down_Approach.cpp)
       * [Memoization on Fibonacci Series](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Fibonacci%20Series/Memoization_on_Fibonacci_Series.cpp)
       * [Bottom Up Approach On Fibonacci](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Fibonacci%20Series/Bottom_Up_Approach_On_Fibonacci.cpp)
-      * []()
+
+      <br>
+    - Knapsack
+      * [Fractional Knapsack](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Fractional_Knapsack.cpp)
       * []()
       * []()
 
