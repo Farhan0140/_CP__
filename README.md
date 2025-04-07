@@ -87,6 +87,13 @@
       * [Knapsack Recursive Approach](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Knapsack_Recursive_Approach.cpp)
       * [Knapsack Top_Down Approach With Memoization.](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Knapsack_Top_Down_Approach_With_Memoization.cpp)
       * [Knapsack Bottom_Up Approach](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Knapsack_Bottom_Up_Approach.cpp)
+
+      <br>
+    - Unbounded Knapsack
+      * []()
+      * []()
+      * []()
+      * []()
       * []()
       * []()
 
