@@ -90,14 +90,23 @@
 
       <br>
     - Unbounded Knapsack
-      * []()
-      * []()
-      * []()
-      * []()
-      * []()
-      * []()
+      * [Unbounded Knapsack Top Down](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Unbounded%20Knapsack/Unbounded_Knapsack_Top_Down.cpp)
+      * [Unbounded Knapsack With Memoization](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Unbounded%20Knapsack/Unbounded_Knapsack_With_Memoization.cpp)
+      * [Unbounded Knapsack Bottom Up](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Unbounded%20Knapsack/Unbounded_Knapsack_Bottom_Up.cpp)
+      * [Rod Cutting Problem](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Unbounded%20Knapsack/Rod_Cutting_Problem.cpp)
+      * [Coin Change Minimum Number of Coin](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Unbounded%20Knapsack/Coin_Change_Minimum_Number_of_Coin.cpp)
+      * [Coin Change Maximum Number of Ways](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/Unbounded%20Knapsack/Coin_Change_Maximum_Number_of_Ways.cpp)
 
-
+      <br>
+    - 0-1 Knapsack Variations ( Sub Set )
+      * []()
+      * []()
+      * []()
+      * []()
+      * []()
+      * []()
+      * []()
+      * []()
 
 
 
