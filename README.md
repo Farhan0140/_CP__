@@ -28,9 +28,8 @@
     * [Binary Search Tree Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Binary_Search_Tree.cpp)
     * [Heap Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap.cpp)
     * [Heap Sort Implementation](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/TREE/Heap_Sort.cpp)
-
-    <!-- <br> -->
-    - Tree Traversal
+   
+    - #### Tree Traversal
         * [Pre Order]()
         * [Post Order]()
         * [In Order]()
