@@ -114,7 +114,13 @@
       * [Minimum Subset Sum Difference](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Minimum_Subset_Sum_Difference.cpp)
       * [Count Subset Sum With Given Difference](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Count_Subset_Sum_With_Given_Difference.cpp)
 
-
+      <br>
+    - Longest Common Subsequence
+      * [LCS Top Down with Memoization](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Longest_Common_Subsequence/LCS_Top_Down_with_Memoization.cpp)
+      * [LCS Bottom Up](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Longest_Common_Subsequence/LCS_Bottom_Up.cpp)
+      * [Printing LCS](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Longest_Common_Subsequence/Printing_LCS.cpp)
+      * [Longest Common Substring Bottom Up](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Longest_Common_Subsequence/Longest_Common_Substring_Bottom_Up.cpp)
+      * [Longest Common Substring Bottom Up and Printing](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Longest_Common_Subsequence/Longest_Common_Substring_Bottom_Up_and_Printing.cpp)
 
 
 
