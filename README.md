@@ -105,14 +105,14 @@
 
       <br>
     - 0-1 Knapsack Variations ( Sub Set )
-      * []()
-      * []()
-      * []()
-      * []()
-      * []()
-      * []()
-      * []()
-      * []()
+      * [Subset Sum Top Down](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Subset_Sum_Top_Down.cpp)
+      * [Subset Sum Top Down With Memoization](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Subset_Sum_Top_Down_With_Memoization.cpp)
+      * [Subset Sum Bottom Up Approach](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Subset_Sum_Bottom_Up_Approach.cpp)
+      * [Count of Subset Sum Top Down](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Count_of_Subset_Sum_Top_Down.cpp)
+      * [Count of Subset Sum Bottom Up](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Count_of_Subset_Sum_Bottom_Up.cpp)
+      * [Equal Sum Partition Using Subset Sum](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Equal_Sum_Partition_Using_Subset_Sum.cpp)
+      * [Minimum Subset Sum Difference](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Minimum_Subset_Sum_Difference.cpp)
+      * [Count Subset Sum With Given Difference](https://github.com/Farhan0140/_CP__/blob/main/DATA_STRUCTURES_ALGORITHM/Dynamic_Programing/Knapsack/SubSet/Count_Subset_Sum_With_Given_Difference.cpp)
 
 
 
